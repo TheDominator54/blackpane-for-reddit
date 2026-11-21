@@ -46,7 +46,7 @@ Displays Old Reddit posts and their comments in a reading pane beside the post l
 None. All JavaScript is bundled in the package.
 
 ## Privacy policy
-Host `privacy.html` from this folder at a public URL (GitHub Pages works) and paste the URL in the Privacy tab of the developer dashboard. Also tick "This item does not collect user data" in the data usage disclosure.
+Hosted at https://thedominator54.github.io/hard-black-reader-for-reddit/store/privacy.html. Paste that URL in the Privacy tab of the developer dashboard. Also tick "This item does not collect user data" in the data usage disclosure.
 
 ## Assets
 - Icons: in the extension package at `icons/` (16, 32, 48, 128).

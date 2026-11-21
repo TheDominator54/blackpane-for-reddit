@@ -35,7 +35,7 @@ store/                 Chrome Web Store listing text, privacy policy, promo tile
 
 ## Privacy
 
-No data collection, no analytics, no servers. See [store/privacy.html](store/privacy.html).
+No data collection, no analytics, no servers. See the [privacy policy](https://thedominator54.github.io/hard-black-reader-for-reddit/store/privacy.html).
 
 ## Third-party code
 
