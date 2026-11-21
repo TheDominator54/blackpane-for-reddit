@@ -2,11 +2,13 @@ const params = new URLSearchParams(location.search);
 const description = document.querySelector('#description');
 const status = document.querySelector('#status');
 const button = document.querySelector('#allow');
+const allowAll = document.querySelector('#allow-all');
 const tab = Number(params.get('tab'));
 const origin = params.get('origin');
 
 if (!origin || !/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(origin) || !Number.isInteger(tab) || tab < 1) {
     button.disabled = true;
+    allowAll.disabled = true;
 } else {
     description.textContent = 'Let the Reddit reading pane load public articles from ' + origin + '.';
     async function grant(pattern) {
@@ -16,6 +18,7 @@ if (!origin || !/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(origin) || !Number.isIn
                 return;
             }
             button.disabled = true;
+            allowAll.disabled = true;
             await chrome.tabs.sendMessage(tab, { type: 'article-allowed', origin });
             await chrome.tabs.update(tab, { active: true });
             const current = await chrome.tabs.getCurrent();
@@ -25,4 +28,5 @@ if (!origin || !/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(origin) || !Number.isIn
         }
     }
     button.addEventListener('click', () => grant(origin + '/*'));
+    allowAll.addEventListener('click', () => grant('https://*/*'));
 }
