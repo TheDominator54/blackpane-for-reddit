@@ -1,4 +1,4 @@
-# Hard Black Reader for Reddit
+# Blackpane for Reddit
 
 A Chrome extension that turns Old Reddit into a two-pane reader. The post list stays on the left. Select a post and it opens on the right with its text, images, video and comments, without leaving the feed. Pure black, one accent colour, keyboard driven.
 
@@ -35,7 +35,7 @@ store/                 Chrome Web Store listing text, privacy policy, promo tile
 
 ## Privacy
 
-No data collection, no analytics, no servers. See the [privacy policy](https://thedominator54.github.io/hard-black-reader-for-reddit/store/privacy.html).
+No data collection, no analytics, no servers. See the [privacy policy](https://thedominator54.github.io/blackpane-for-reddit/store/privacy.html).
 
 ## Third-party code
 

@@ -1,13 +1,13 @@
-# Chrome Web Store listing — Hard Black Reader for Reddit
+# Chrome Web Store listing — Blackpane for Reddit
 
 ## Name
-Hard Black Reader for Reddit
+Blackpane for Reddit
 
 ## Summary (132 characters max)
 Read Old Reddit in a split view: post list on the left, post, media and comments on the right. Keyboard driven, pure black.
 
 ## Description
-Hard Black Reader turns Old Reddit into a two-pane reader. The post list stays on the left. Click or arrow to a post and it opens on the right with its text, images, video and comments, without leaving the feed.
+Blackpane turns Old Reddit into a two-pane reader. The post list stays on the left. Click or arrow to a post and it opens on the right with its text, images, video and comments, without leaving the feed.
 
 What it does
 • Split view: feed on the left, post and comments on the right, with a draggable divider.
@@ -46,7 +46,7 @@ Displays Old Reddit posts and their comments in a reading pane beside the post l
 None. All JavaScript is bundled in the package.
 
 ## Privacy policy
-Hosted at https://thedominator54.github.io/hard-black-reader-for-reddit/store/privacy.html. Paste that URL in the Privacy tab of the developer dashboard. Also tick "This item does not collect user data" in the data usage disclosure.
+Hosted at https://thedominator54.github.io/blackpane-for-reddit/store/privacy.html. Paste that URL in the Privacy tab of the developer dashboard. Also tick "This item does not collect user data" in the data usage disclosure.
 
 ## Assets
 - Icons: in the extension package at `icons/` (16, 32, 48, 128).
@@ -60,7 +60,7 @@ Hosted at https://thedominator54.github.io/hard-black-reader-for-reddit/store/pr
 
 ## Changelog for the listing
 2.0.0
-- Renamed to Hard Black Reader for Reddit, added icons and an options page (autoplay, mute, reset list width).
+- Renamed to Blackpane for Reddit, added icons and an options page (autoplay, mute, reset list width).
 - Video players and the article parser now load only when a post needs them, so Reddit pages load faster.
 - Threads you have already opened are cached, and Reddit rate limits show a clear message.
 - Right arrow jumps to comments, then pages through them.

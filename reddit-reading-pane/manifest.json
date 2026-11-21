@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Hard Black Reader for Reddit",
+  "name": "Blackpane for Reddit",
   "version": "2.0.0",
   "description": "Split-view reading pane for Old Reddit: posts, media and comments beside the feed, in hard black.",
   "minimum_chrome_version": "111",
