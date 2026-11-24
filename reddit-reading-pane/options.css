@@ -3,34 +3,34 @@ body {
     padding: 20px 22px 24px;
     min-width: 320px;
     background: #000;
-    color: #dfe4ec;
+    color: #e5e4df;
     font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
     color-scheme: dark;
 }
-h1 { margin: 0 0 14px; font-size: 16px; font-weight: 650; color: #f3f5f9; }
+h1 { margin: 0 0 14px; font-size: 16px; font-weight: 650; color: #f6f5f1; }
 label { display: flex; align-items: center; gap: 10px; margin: 10px 0; cursor: pointer; }
-input[type="checkbox"] { width: 16px; height: 16px; accent-color: #8acaff; }
-p { margin: 8px 0; color: #8b97ab; }
+input[type="checkbox"] { width: 16px; height: 16px; accent-color: #ccc3ad; }
+p { margin: 8px 0; color: #a5a49d; }
 button {
     margin-top: 6px;
     padding: 7px 12px;
-    color: #a9d8ff;
-    background: #121826;
-    border: 1px solid #2c3a52;
+    color: #e8dfc9;
+    background: #191918;
+    border: 1px solid #43433e;
     border-radius: 6px;
     font: inherit;
     cursor: pointer;
 }
-button:hover { background: #8acaff26; border-color: #8acaff; }
+button:hover { background: #ccc3ad26; border-color: #ccc3ad; }
 button:disabled { opacity: .45; cursor: default; }
 kbd {
     padding: 1px 6px;
-    border: 1px solid #2c3a52;
+    border: 1px solid #43433e;
     border-bottom-width: 2px;
     border-radius: 4px;
-    background: #0a0e15;
+    background: #10100f;
     font: 12px ui-monospace, Menlo, monospace;
-    color: #dfe4ec;
+    color: #e5e4df;
 }
 .keys { margin: 14px 0 0; padding: 0; list-style: none; }
 .keys li { display: flex; gap: 10px; align-items: baseline; margin: 4px 0; }

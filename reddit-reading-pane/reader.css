@@ -5,24 +5,24 @@ body.hb-reading-layout {
     --hb-pane-top: 0px;
 
     --hb-bg: #000;
-    --hb-surface: #0a0e15;
-    --hb-surface-2: #121826;
-    --hb-line: #1c2434;
-    --hb-line-strong: #2c3a52;
+    --hb-surface: #10100f;
+    --hb-surface-2: #191918;
+    --hb-line: #292925;
+    --hb-line-strong: #43433e;
 
-    --hb-text: #dfe4ec;
-    --hb-title: #f3f5f9;
-    --hb-muted: #8b97ab;
-    --hb-faint: #5c6677;
+    --hb-text: #e5e4df;
+    --hb-title: #f6f5f1;
+    --hb-muted: #a5a49d;
+    --hb-faint: #83827b;
 
-    --hb-accent: #8acaff;
-    --hb-accent-strong: #a9d8ff;
-    --hb-accent-soft: #8acaff26;
-    --hb-accent-faint: #8acaff12;
+    --hb-accent: #ccc3ad;
+    --hb-accent-strong: #e8dfc9;
+    --hb-accent-soft: #ccc3ad26;
+    --hb-accent-faint: #ccc3ad12;
 
-    --hb-author: #aec3e0;
+    --hb-author: #c8c6be;
     --hb-community: var(--hb-accent);
-    --hb-count: #9aa9c2;
+    --hb-count: #adaca5;
     --hb-link: var(--hb-accent);
     --hb-warn: #f0c27a;
 
